@@ -13,12 +13,19 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption {
 
 /*Style rules for body and images*/
 body {
-	background-color: #cbb7b6
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient from pink to orange */
+    font-family: 'Arial', sans-serif;
+    color: #333;
 }
 
 img {
 	max-width: 100%;
 	display: block;
+	transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1); /* Zoom in when hovered */
 }
 
 /*Style rule for box sizing appliess to all elements*/
